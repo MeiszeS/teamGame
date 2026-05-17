@@ -14,6 +14,8 @@ button{width: 10ch;}
     height:65vh;
     background-color: rgb(174, 225, 235);
     border:red ridge 2px;
+    display: flex;
+    flex-direction: column;
 }
 
 .buttonContainer{
