@@ -1,3 +1,39 @@
-canvas{border:rebeccapurple 5px inset;}
+body{background-color: rgb(249, 200, 171); font-family: Arial;}
+
 h1{text-align: center;}
 h2{text-align: center;}
+h3{text-align: center;}
+h4{border:red inset 3px;}
+
+input{width:30ch}
+
+button{width: 10ch;}
+
+.question{
+    aspect-ratio: 9 / 16;
+    height:65vh;
+    background-color: rgb(174, 225, 235);
+    border:red ridge 2px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+}
+
+.yes{background-color: green;}
+.no{background-color: red;}
+.correct{background-color: yellow;}
+
+#questionContainer{
+    display: flex;
+    justify-content: center;
+}
